@@ -1,0 +1,4 @@
+- id: auto-build-push-docker
+  name: Auto build and push docker
+  entry: auto-build-push-docker
+  language: script
