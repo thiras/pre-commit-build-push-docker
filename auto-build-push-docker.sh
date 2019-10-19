@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-docker build -t $1 .
-docker push $1
+docker login $1
+docker build -t $2 .
+docker push $2
